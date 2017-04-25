@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<expenses>
+  <expense date="9.7.2015" category="Education" amount="900">
+    Book about Ruby on Rails
+  </expense>
+
+  <expense date="17.7.2015" category="Education" amount="2000">
+    Cours of Eanglish
+  </expense>
+
+  <expense date="25.11.2015" category="Soft" amount="15000">
+    New laptop
+  </expense>
+
+</expenses>
