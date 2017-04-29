@@ -1,16 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
-
+<?xml version='1.0' encoding='UTF-8'?> 
 <expenses>
-  <expense date="9.7.2015" category="Education" amount="900">
-    Book about Ruby on Rails
+  <expense date='9.7.2015' category='Education' amount='900'>
+     Book about Ruby on Rails 
   </expense>
-
-  <expense date="17.7.2015" category="Education" amount="2000">
-    Cours of Eanglish
+  <expense date='17.7.2015' category='Education' amount='2000'>
+     Cours of Eanglish 
   </expense>
-
-  <expense date="25.11.2015" category="Soft" amount="15000">
-    New laptop
+  <expense date='25.11.2015' category='Soft' amount='15000'>
+     New laptop 
   </expense>
-
+  <expense date='2017-04-29' category='pasive assets' amount='10000'>
+     car 
+  </expense>
+  <expense date='2017-04-29' category='education' amount='2000'>
+     new cours of Ruby 
+  </expense>
+  <expense date='2017-04-29' category='Education' amount='20000'>
+     laptop 
+  </expense>
+  <expense date='2017-04-29' category='Home' amount='100'>
+     cofe
+  </expense>
 </expenses>
