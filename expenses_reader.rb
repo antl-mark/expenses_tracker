@@ -36,13 +36,13 @@ amount_by_day.keys.sort.each do |key|
   sum_by_month[key.strftime("%B %Y")] += amount_by_day[key]
 end
 
-puts "------[#{current_month}, expensed: #{sum_by_month[current_month]} gruven]------"
+puts "------[#{current_month}, expensed: #{sum_by_month[current_month]} gryven]------"
 
 amount_by_day.keys.sort.each do |key|
   if key.strftime("%B %Y") != current_month
     current_month = key.strftime("%B %Y")
-    puts "------[#{current_month}, expensed: #{sum_by_month[current_month]} gruven]------"
+    puts "------[#{current_month}, expensed: #{sum_by_month[current_month]} gryven]------"
   end
 
-  puts "\t#{key.strftime("%d %B")}: #{amount_by_day[key]} gruven"
+  puts "\t#{key.strftime("%d %B")}: #{amount_by_day[key]} gryven"
 end
